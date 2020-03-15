@@ -18,20 +18,10 @@ class Song
     @@count
   end
   
-  def self.artists #self.artists= ?
+  def self.artists= 
     @@artists = artists
   end
   
-  def genres
-    @@genres = genres
-  end
-  
-  # def artist_count
-  #   @@artist_count
-  # end
-  
-  # def self.genre_count
-  #   @@genre_count
-  # end
-  
+
+
 end
